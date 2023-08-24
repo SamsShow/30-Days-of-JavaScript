@@ -15,4 +15,7 @@
   <tr>
       <th><a href="./ToBeOrNotToBe.js">Day 3 => To Be Or Not To Be</a></th>
   </tr>
+  <tr>
+      <th><a href="./counterII.js">Day 4 => Counter 2</a></th>
+  </tr>
 </table>
