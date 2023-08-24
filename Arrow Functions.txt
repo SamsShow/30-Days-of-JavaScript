@@ -1,0 +1,33 @@
+
+An arrow functions automatically return the value of the expression 
+after the arrow (=>) symbol, without the need for an explicit 
+return statement.
+
+Lexical this : One of the best thing that arrow function syntax 
+introduced to us --
+
+    Arrow function has lexical this binding i.e they inherit the this 
+    value of the enclosing scope. This can be particularly useful when 
+    working with event listeners or callback functions, where the this 
+    value can be unpredictable.
+
+When not to use the Arrow function syntax:
+
+    Arrow functions cannot be used as constructors to create new 
+    objects, because they do not have their own this value. 
+    If you need to create objects using the new keyword, you 
+    will need to use a traditional function instead.
+    Arrow functions cannot be used as generator functions 
+    that use the yield keyword to return multiple values over 
+    time. If you need to use the yield keyword, you will need 
+    to use a traditional function instead.
+    You must be thinking what is this yield keyword? well, 
+    The yield keyword is used in special functions called 
+    generator functions, which can return multiple values 
+    over time instead of returning just one value like a 
+    normal function. When the yield keyword is encountered 
+    in the generator function, it pauses the function and 
+    returns a value, and the function can be resumed later 
+    to return more values.
+    Basically its like a pause and resume functionality.
+
