@@ -19,6 +19,9 @@
   <tr>
       <th><a href="./counterII.js">Day 4 => Counter 2</a></th>
   </tr>
+  <tr>
+      <th><a href="./ApplyTransform.js">Day 5 => Apply Transform over Each Element</a></th>
+  </tr>
 </table>
 
 <br>
