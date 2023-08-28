@@ -7,8 +7,9 @@
 
 <h1>Code</h1>
 <table>
+
   <tr>
-    <th><a href="./createhelloworld.js">Day 1 => Create Hello World Function</a></th>
+    <th text-align: left;><a href="./createhelloworld.js">Day 1 => Create Hello World Function</a></th>
   </tr>
   <tr>
     <th><a href="./counter.js">Day 2 => Counter</a></th>
@@ -21,6 +22,12 @@
   </tr>
   <tr>
       <th><a href="./ApplyTransform.js">Day 5 => Apply Transform over Each Element</a></th>
+  </tr>
+  <tr>
+      <th><a href="./filterArray.js">Day 6 => Filter Elements from Array</a></th>
+  </tr>
+  <tr>
+      <th><a href="./ArrayReduce.js">Day 7 => Array Reduce Transformation</a></th>
   </tr>
 </table>
 
