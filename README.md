@@ -6,10 +6,10 @@
 <br>
 
 <h1>Code</h1>
-<table style="text-align:center;">
+<table>
 
   <tr>
-  <th ><a href="./createhelloworld.js">Day 1 => Create Hello World Function</a></th>
+  <th style="text-align:center;" ><a href="./createhelloworld.js">Day 1 => Create Hello World Function</a></th>
   </tr>
   <tr>
     <th><a href="./counter.js">Day 2 => Counter</a></th>
