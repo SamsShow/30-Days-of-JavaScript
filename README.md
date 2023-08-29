@@ -9,7 +9,7 @@
 <table>
 
   <tr>
-  <th style="text-align:center;" ><a href="./createhelloworld.js">Day 1 => Create Hello World Function</a></th>
+  <th style="text-align:left;" ><a href="./createhelloworld.js">Day 1 => Create Hello World Function</a></th>
   </tr>
   <tr>
     <th><a href="./counter.js">Day 2 => Counter</a></th>
@@ -28,6 +28,9 @@
   </tr>
   <tr>
       <th><a href="./ArrayReduce.js">Day 7 => Array Reduce Transformation</a></th>
+  </tr>
+  <tr>
+      <th><a href="./functionComposition.js">Day 8 => Function Composition</a></th>
   </tr>
 </table>
 
