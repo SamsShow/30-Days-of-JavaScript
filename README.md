@@ -30,6 +30,9 @@ Learn how to use the `reduce` function to transform an array into a single value
 ### Day 8: [Function Composition](./functionComposition.js)
 Explore function composition by chaining multiple functions together.
 
+### Day 9: [Function Composition](./returnlength.js)
+Learn about rest parameter.
+
 ## Documentation
 
 ### [Arrow Functions](./Arrow%20Functions.txt)
