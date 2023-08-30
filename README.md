@@ -38,5 +38,5 @@ Learn about rest parameter.
 ### [Arrow Functions](./Arrow%20Functions.txt)
 Understand the syntax and usage of arrow functions in JavaScript.
 
-###[Closures](./Closures.txt)
+### [Closures](./Closures.txt)
 Learn about closures and how they enable encapsulation in JavaScript.
