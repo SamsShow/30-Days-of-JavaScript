@@ -33,6 +33,9 @@ Explore function composition by chaining multiple functions together.
 ### Day 9: [Function Composition](./returnlength.js)
 Learn about rest parameter.
 
+### Day 10: [Allow one Function Call](./AllowOneFunction.js)
+Use a closure to store the state of the returned function.
+
 ## Documentation
 
 ### [Arrow Functions](./Arrow%20Functions.txt)
