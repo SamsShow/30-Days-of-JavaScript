@@ -37,6 +37,7 @@ Learn about rest parameter.
 Use a closure to store the state of the returned function.
 
 ### Day 11: [Memorize](./Memorize.js)
+Learn about Memoized Function & Caching
 
 
 ## Documentation
