@@ -1,0 +1,2 @@
+Caching is the process of storing data in a temporary storage area, known as cache, to improve performance and reduce the amount of times data needs to be fetched from the original source
+In a 5year old language caching is like saving a cookie or a toy in your pocket so you can quickly find it later when you want to use it again. It helps make things faster and easier to find!
