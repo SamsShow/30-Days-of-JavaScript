@@ -19,3 +19,9 @@ var addTwoPromises = async function(promise1, promise2) {
   
   // addTwoPromises(promise1, promise2)
   //   .then(console.log); // Output: 7
+
+// what promise.all basically does is that it takes a certain number of promises and returns only one promise.
+// Here's it's syntax :
+// Promise.all(array) .
+// That's weird why do we have an array?
+// Promise.all literally takes an array as it's parameters 
