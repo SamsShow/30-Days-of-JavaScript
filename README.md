@@ -40,10 +40,10 @@ Use a closure to store the state of the returned function.
 Learn about Memoized Function & Caching
 
 ### Day 12: [Add Two Promises](./AddToPromises.js)
-Learn about Promise.all method
+Learn about `Promise.all` method
 
 ### Day 13: [Sleep](./sleep.js)
-Create an Asynchronous function that sleeps for millis milliseconds
+Create an `Asynchronous function` that sleeps for millis milliseconds
 
 
 ## Documentation
