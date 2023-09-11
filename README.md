@@ -45,6 +45,9 @@ Learn about `Promise.all` method
 ### Day 13: [Sleep](./sleep.js)
 Create an `Asynchronous function` that sleeps for millis milliseconds
 
+### Day 14: [Time Out Cancellation](./timeoutcancellation.js)
+Learn about `clearTimeout` method
+
 
 ## Documentation
 
