@@ -1,0 +1,17 @@
+setTimeout Method :
+
+The function takes two parameters: a callback function and a delay value in milliseconds. The callback function represents the code we want to execute after the delay.
+When we call setTimeout, it registers the callback function and starts a timer. After the specified delay, the JavaScript engine adds the callback function to the event queue.
+In case you don't know what an event Queue is , the event queue is a data structure that holds tasks to be processed by the JavaScript runtime. When the call stack is empty (all synchronous code has finished executing), the runtime picks the next task from the event queue and executes it.
+By using setTimeout, we introduce an asynchronous behavior in our code. This means that while the delay is counting down, the JavaScript engine can continue executing other code without waiting for the setTimeout callback to be invoked AND THIS IS REALLY IMPORTANT .
+
+`clearTimeout Method` :
+
+The function takes two parameters: a callback function and a delay value in milliseconds. The callback function represents the code we want to execute after the delay.
+When we call setTimeout, it registers the callback function and starts a timer. After the specified delay, the JavaScript engine adds the callback function to the event queue.
+In case you don't know what an event Queue is , the event queue is a data structure that holds tasks to be processed by the JavaScript runtime. When the call stack is empty (all synchronous code has finished executing), the runtime picks the next task from the event queue and executes it.
+By using setTimeout, we introduce an asynchronous behavior in our code. This means that while the delay is counting down, the JavaScript engine can continue executing other code without waiting for the setTimeout callback to be invoked AND THIS IS REALLY IMPORTANT .
+
+In simpler terms, clearTimeout allows you to say, "Hey, hold on! Don't run that function yet!" It gives you the ability to pause or cancel the scheduled execution, providing a smoother and more responsive user experience in situations where dynamic control is required.
+
+Without clearTimeout, you wouldn't have the option to stop or cancel the execution of a scheduled function. It would always run regardless of any subsequent logic or conditions. By using clearTimeout, you have the power to manage and adjust the timing of your code, ensuring it behaves exactly as you need it to.
