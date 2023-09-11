@@ -42,6 +42,10 @@ Learn about Memoized Function & Caching
 ### Day 12: [Add Two Promises](./AddToPromises.js)
 Learn about Promise.all method
 
+### Day 13: [Sleep](./sleep.js)
+Create an Asynchronous function that sleeps for millis milliseconds
+
+
 ## Documentation
 
 ### [Arrow Functions](./Arrow%20Functions.txt)
