@@ -49,6 +49,7 @@ Create an `Asynchronous function` that sleeps for millis milliseconds
 Learn about `clearTimeout` method
 
 
+
 ## Documentation
 
 ### [Arrow Functions](./Arrow%20Functions.txt)
