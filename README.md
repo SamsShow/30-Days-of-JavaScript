@@ -48,6 +48,8 @@ Create an `Asynchronous function` that sleeps for millis milliseconds
 ### Day 14: [Time Out Cancellation](./timeoutcancellation.js)
 Learn about `clearTimeout` method
 
+### Day 15: [Interval Cancellation](./Intervalcancellation.js)
+Implement the `cancefn`
 
 
 ## Documentation
