@@ -51,6 +51,10 @@ Learn about `clearTimeout` method
 ### Day 15: [Interval Cancellation](./Intervalcancellation.js)
 Implement the `cancefn`
 
+### Day 16: [Promise Time Limit](./promisetimelimit.js)
+
+
+
 
 ## Documentation
 
