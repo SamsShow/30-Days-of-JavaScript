@@ -54,6 +54,8 @@ Implement the `cancefn`
 ### Day 16: [Promise Time Limit](./promisetimelimit.js)
 Implement a time limited function
 
+### Day 17: [Cache with Time Limit](./CacheWithTimeLimit.js)
+Learn about the use of `set`, `get`, `count` and `remove` methods
 
 
 
