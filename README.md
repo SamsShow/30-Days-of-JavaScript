@@ -52,6 +52,7 @@ Learn about `clearTimeout` method
 Implement the `cancefn`
 
 ### Day 16: [Promise Time Limit](./promisetimelimit.js)
+Implement a time limited function
 
 
 
