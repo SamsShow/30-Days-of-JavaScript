@@ -80,3 +80,7 @@ Learn about the setTimeout and clearTimeout functions.
 ### [Debounce](./Debounce.txt)
 Learn about debouncing and how it can be used to improve performance.
 
+### [Promise](./Promise.txt)
+
+
+
