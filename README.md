@@ -57,7 +57,7 @@ Implement a time limited function
 ### Day 17: [Cache with Time Limit](./CacheWithTimeLimit.js)
 Learn about the use of `set`, `get`, `count` and `remove` methods
 
-###Day 18: [Debounce](./Debounce.js)
+### Day 18: [Debounce](./Debounce.js)
 Implementation of `debounce` function
 
 
