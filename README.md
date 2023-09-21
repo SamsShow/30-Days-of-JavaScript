@@ -70,7 +70,11 @@ Understand the syntax and usage of arrow functions in JavaScript.
 Learn about closures and how they enable encapsulation in JavaScript.
 
 ### [Caching](./Caching.txt)
+Learn about caching and how it can be used to improve performance.
 
 ### [setTimeout and clearTimeout](./setTimeout%20and%20ClearTimeout.txt)
+Learn about the setTimeout and clearTimeout functions.
 
 ### [Debounce](./Debounce.txt)
+Learn about debouncing and how it can be used to improve performance.
+
