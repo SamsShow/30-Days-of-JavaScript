@@ -1,3 +1,10 @@
+A Promise is an object representing the eventual completion or failure of an 
+asynchronous operation.
+
+There are four composition tools for running asynchronous operations concurrently: 
+Promise.all(), Promise.allSettled(), Promise.any(), and Promise.race().
+
+
 Promise.all()
 Promise.all() is a built-in JavaScript method that takes an iterable of promises and 
 returns a new promise that only fulfills when all the promises in the iterable have 
