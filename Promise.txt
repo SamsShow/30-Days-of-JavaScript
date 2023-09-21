@@ -1,0 +1,78 @@
+Promise.all()
+Promise.all() is a built-in JavaScript method that takes an iterable of promises and 
+returns a new promise that only fulfills when all the promises in the iterable have 
+been fulfilled, or rejects as soon as one of the promises in the iterable rejects. 
+The value of the Promise.all() promise is an array of the fulfilled values of the 
+promises in the iterable, in the same order as the promises in the iterable.
+
+As you can see, Promise.all() is perfect when you want to run multiple promises in 
+parallel and wait for all of them to finish. It's a great way to group promises 
+together and only deal with their results when all of them are ready.
+
+It's also worth mentioning that there is a potential pitfall with Promise.all() to be 
+aware of: if any of the promises passed to it reject, Promise.all() will immediately 
+reject with that reason, discarding all the other promises, even if they were about to 
+fulfill. In other words, it's an "all or nothing" approach. This behavior is, in fact, 
+what our problem expects us to emulate. For more detailed understanding
+
+Use Cases of Promise.all() in JavaScript
+1)Aggregating API Data:
+
+    let urls = [
+      'https://api.github.com/users/github',
+      'https://api.github.com/users/microsoft',
+      'https://api.github.com/users/apple'
+    ];
+
+    Promise.all(urls.map(url =>
+            fetch(url).then(user => user.json())
+    )).then(users => {
+      console.log(users.length); // 3
+      console.log(users[0]); // {login: "github", ...}
+    });
+
+2)Database Transactions
+
+3)Running Tasks with Interdependencies:
+    let task1 = fetch('/api/task1');
+    let task2 = fetch('/api/task2');
+
+    Promise.all([task1, task2])
+            .then(results => {
+              let result1 = results[0];
+              let result2 = results[1];
+
+              // do something with the results
+            });
+
+
+
+Interview Tips:
+
+What does Promise.all() do, and how does it work?
+-> Promise.all() is a utility function in JavaScript that aggregates multiple promises 
+into a single promise that resolves when all of the input promises have resolved, or 
+rejects as soon as any one of the input promises rejects. It's often used when multiple 
+asynchronous operations need to be performed concurrently, and further computation 
+depends on the completion of all of these operations.
+
+What happens if one of the promises passed into Promise.all() rejects?
+->If any of the promises passed into Promise.all() rejects, the promise returned by 
+Promise.all() immediately rejects with the reason of the first promise that rejected. 
+This behavior is sometimes called "fail-fast".
+
+How can you handle individual promise rejections in Promise.all()?
+->To handle individual promise rejections in Promise.all(), you could catch errors in 
+individual promises and transform them into a resolution with an error value. This 
+allows Promise.all() to always resolve, and error handling can then be performed on 
+the resulting array of values. However, starting with ECMAScript 2020, a better 
+alternative would be to use Promise.allSettled().
+
+What is the difference between Promise.all() and Promise.allSettled()?
+->The Promise.allSettled() method is similar to Promise.all(), but with a key 
+difference. While Promise.all() rejects as soon as one of the promises rejects, 
+Promise.allSettled() always resolves after all the promises have settled, i.e., 
+either fulfilled or rejected. The resolved value of Promise.allSettled() is an 
+array of objects that each describe the outcome of each promise.
+
+
