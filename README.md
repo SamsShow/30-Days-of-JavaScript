@@ -60,7 +60,7 @@ Learn about the use of `set`, `get`, `count` and `remove` methods
 ### Day 18: [Debounce](./Debounce.js)
 Implementation of `debounce` function
 
-### Day 19: [Execute Asynchronous FUnction Parallel](./ExecuteAsynchronousFunctionsinParallel.js)
+### Day 19: [Execute Asynchronous Function Parallel](./ExecuteAsynchronousFunctionsinParallel.js)
 Function which simulates the behavior of JavaScript's built-in `Promise.all()`
 
 ## Documentation
