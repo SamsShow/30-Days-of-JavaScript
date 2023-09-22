@@ -82,6 +82,10 @@ Implementation of `debounce` function
 
 Function which simulates the behavior of JavaScript's built-in `Promise.all()`
 
+### Day 20: [Is Object Empty](./%20IsObjectEmpty.js)
+
+Function which checks if an object is empty
+
 ## Documentation
 
 ### [Arrow Functions](./Arrow%20Functions.txt)
